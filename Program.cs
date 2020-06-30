@@ -11,7 +11,7 @@ namespace LTIQueryParser
         static void Main(string[] args)
         {
             var sanitizer = new SanitizeFilter();
-            sanitizer.Filter = $"name='Reg' AND description~'Math'";
+            sanitizer.Filter = $"name='Bingo Blitz'ANDdescription~'Math'";
             sanitizer.processFilter();
             Console.ReadLine();
         }
